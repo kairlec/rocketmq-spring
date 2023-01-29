@@ -49,7 +49,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.util.Assert;
 import org.springframework.util.StringUtils;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 @Configuration
 @EnableConfigurationProperties(RocketMQProperties.class)

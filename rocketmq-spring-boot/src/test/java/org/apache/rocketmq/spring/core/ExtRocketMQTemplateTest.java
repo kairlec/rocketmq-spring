@@ -29,7 +29,7 @@ import org.springframework.messaging.MessagingException;
 import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
