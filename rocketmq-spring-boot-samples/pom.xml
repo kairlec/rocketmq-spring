@@ -24,7 +24,7 @@
     <groupId>org.apache.rocketmq</groupId>
     <artifactId>rocketmq-spring-boot-samples</artifactId>
     <packaging>pom</packaging>
-    <version>2.2.3.kairlec-SNAPSHOT</version>
+    <version>2.2.4.kairlec-SNAPSHOT</version>
     
     <name>RocketMQ Spring Boot Samples</name>
     <description>Samples for RocketMQ Spring Boot</description>
@@ -38,9 +38,9 @@
     </modules>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <rocketmq-spring-boot-starter-version>2.2.3.kairlec-SNAPSHOT</rocketmq-spring-boot-starter-version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <rocketmq-spring-boot-starter-version>2.2.4.kairlec-SNAPSHOT</rocketmq-spring-boot-starter-version>
     </properties>
 
     <dependencies>
@@ -77,7 +77,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.1.0.RELEASE</version>
+                <version>3.0.2</version>
                 <executions>
                     <execution>
                         <goals>
